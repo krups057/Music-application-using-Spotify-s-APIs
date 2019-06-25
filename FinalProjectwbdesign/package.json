@@ -1,0 +1,23 @@
+{
+  "name": "finalprojectwbdesign",
+  "version": "1.0.0",
+  "description": "auth",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "query-string": "^5.0.1",
+    "request": "^2.83.0",
+    "serve-static": "^1.13.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js --port 8888"
+  },
+  "author": "krupa",
+  "license": "ISC"
+}

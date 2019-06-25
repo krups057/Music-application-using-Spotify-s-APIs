@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+.artist-header{
+    padding-bottom :20px;
+    margin-bottom:30px;
+    border-bottom: 1px solid-black;
+
+}
+
+.artist-thumb{
+    width:180px;
+    height:120px;
+    float:left;
+    margin-bottom:10px;
+    margin-right:15px;
+
+}
+
+.artist-album .well{
+    margin-bottom:100px;
+    overflow:hidden;
+    
+}
+
+.album{
+    text-align:center;
+    min-height:400px;
+    background:#333;
+    padding: 20px;
+    border : #666 1px solid;
+}
+
+.album-thumb{
+    width: 100%;
+}
+
+.min{
+    border-bottom:#333 1px solid;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+ 
